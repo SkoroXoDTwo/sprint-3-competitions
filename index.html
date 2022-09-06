@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base target="_blank">
+  <title>Байки</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body class="root">
+  <div class="page"> <!-- flex -->
+    <header class="header"> <!-- flex -->
+      <nav class="header__menu"> <!-- flex Этот Элемент скрыт для Mobile-->
+        <ul class="header__menu-list"> <!-- flex -->
+          <li><a class="header__menu-item" href="#">Покрытия и градиенты</a></li>
+
+          <li><a class="header__menu-item" href="#">Велосипеды</a></li>
+
+          <li><a class="header__menu-item" href="#">Тренировки</a></li>
+        </ul>
+      </nav>
+
+      <button class="header__burger"> <!-- flex Этот Элемент скрыт для Desktop-->
+        <hr class="header__burger-line">
+
+        <hr class="header__burger-line">
+
+        <hr class="header__burger-line">
+      </button>
+    </header>
+
+    <main>
+      <section class="intro"> <!-- flex -->
+        <div class="intro__description">
+          <h1 class="intro__title">Шоссе, ТТ и Грэвел</h1>
+
+          <img class="intro__img" src="" alt=""> <!-- flex Этот Элемент скрыт для Desktop-->
+
+          <p class="intro__subtitle">
+            Триатлонные старты, горные серпантины или грейвел заезды по живописным маршрутам – нужно только определиться с выбором велосипеда и отправиться в путь.
+          </p>
+
+          <button class="intro__button">Подробнее</button>
+
+          <div class="intro__caption"> <!-- flex -->
+            <p class="intro__caption-name">Cannondale Systemsix</p> <!-- тут возможно тэг h3 лучше подойдет --> <!-- flex Этот Элемент скрыт для Mobile-->
+            <hr class="intro__line">
+          </div>
+        </div>
+
+        <img class="intro__img" src="" alt=""> <!-- flex Этот Элемент скрыт для Mobile-->
+      </section>
+
+      <section class="quote"> <!-- flex -->
+        <img class="quote__img">
+
+        <div class="quote__description"> <!-- flex -->
+          <h2 class="quote__title">«Катайся много или мало, долго или коротко, как хочешь - но катайся»</h2>
+
+          <div class="quote__author"> <!-- flex -->
+            <h3 class="quote__author-name">Эдди Меркс</h3> <!-- а тут возможно тэг p лучше подойдет -->
+
+            <p class="quote__author-caption">Велогонщик</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="highway"> <!-- flex -->
+        <div class="highway__header">
+          <h2 class="highway__title">Шоссе</h2>
+
+          <div class="highway__buttons"> <!-- flex Этот элемент скрыт для Desctop-->
+            <button class="highway__button">&lt;</button>
+            <button class="highway__button">&gt;</button>
+          </div>
+        </div>
+
+
+        <p class="highway__subtitle">
+          На шоссейном велосипеде можно ездить по асфальту на разных градиентах:
+          будь то горы или равнины. Гонки проходят в командном пелотоне,
+          но тренироваться можно и самостоятельно.
+        </p>
+
+        <div class="highway__photo">  <!-- flex or grid --> <!-- Предлагаю зеленую метку сделать как highway__photo:first-child::after {там добавить position absolute и бэкграунд} -->
+          <img class="highway__photo-item" src="" alt="">
+          <img class="highway__photo-item" src="" alt="">
+        </div>
+
+        <div class="highway__buttons"> <!-- flex Этот элемент скрыт для Mobile-->
+          <button class="highway__button">&lt;</button>
+          <button class="highway__button">&gt;</button>
+        </div>
+      </section>
+
+      <section class="bike"> <!-- flex -->
+        <div class="bike__header"> <!-- flex -->
+          <h2 class="bike__title">Велосипеды</h2>
+
+          <nav class="bike__menu"> <!-- flex Этот элемент скрыт для Mobile-->
+            <ul class="bike__menu-list"> <!-- flex -->
+              <li><button class="bike__menu-button bike__menu-button_active">Шоссе</button></li>
+
+              <li><button class="bike__menu-button">Грэвел</button></li>
+
+              <li><button class="bike__menu-button">TT</button></li>
+            </ul>
+          </nav>
+
+          <select class="bike__select"> <!-- flex Этот Элемент скрыт для Desktop-->
+            <option class="bike__option">Шоссе</option>
+
+            <option class="bike__option">Грэвел</option>
+
+            <option class="bike__option">TT</option>
+          </select>
+        </div>
+
+        <div class="bike__cards"> <!-- grid -->
+          <article class="bike__card"> <!-- flex -->
+            <div class="bike__card-background">
+              <img class="bike__card-img" src="" alt="">
+            </div>
+
+            <p class="bike__card-name">Cervelo Caledonia-5</p>
+          </article>
+
+          <article class="bike__card"> <!-- flex -->
+            <div class="bike__card-background">
+              <img class="bike__card-img" src="" alt="">
+            </div>
+
+            <p class="bike__card-name">Cannondale Systemsix Himod</p>
+          </article>
+
+          <article class="bike__card"> <!-- flex -->
+            <div class="bike__card-background">
+              <img class="bike__card-img" src="" alt="">
+            </div>
+
+            <p class="bike__card-name">Trek Domane SL-7</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="training"> <!-- flex -->
+        <div class="training__description"> <!-- flex -->
+          <div class="training__description-row"> <!-- flex -->
+            <h2 class="training__title">Тренировки</h2>
+
+            <p class="training__subtitle">
+              Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot,
+              а записать эти тренировки поможет приложение Strava, а также это
+              приложение позволит построить тренировочный план.
+            </p>
+          </div>
+
+          <div class="training__links"> <!-- flex -->
+            <a class="training__link" href="#">Strava</a>
+
+            <a class="training__link" href="#">Komoot</a>
+          </div>
+        </div>
+
+        <img class="training__img" src="" alt="">
+      </section>
+    </main>
+
+    <footer class="footer">  <!-- flex -->
+      <div class="footer__newsletter">  <!-- flex -->
+        <h2 class="footer__title">Подпишитесь на рассылку —</h2>
+
+        <input class="footer__input" type="email" placeholder="Ваш e-mail">
+      </div>
+
+      <p class="footer__copyright">&copy; Road Club 2021</p>
+    </footer>
+  </div>
+</body>
+</html>
