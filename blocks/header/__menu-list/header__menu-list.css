@@ -1,3 +1,13 @@
-.hesder__menu-list {
-  
+.header__menu-list {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding-left: 0;
+  margin: 0 120px 0 auto;
+}
+
+@media screen and (max-width: 320px) {
+  .header__menu-list {
+    display: none;
+  }
 }
