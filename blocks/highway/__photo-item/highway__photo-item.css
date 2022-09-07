@@ -1,3 +1,15 @@
 .highway__photo-item {
-  
+  margin: 0;
+  padding: 0;
+  min-width: 650px;
+  max-height: 400px;
+  object-fit: cover;
+  position: relative;
+}
+
+@media screen and (max-width: 320px) {
+  .highway__photo-item {
+    min-width: 100%;
+    width: 100%;
+  }
 }

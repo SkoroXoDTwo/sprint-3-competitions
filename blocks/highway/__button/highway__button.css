@@ -1,3 +1,17 @@
 .highway__button {
-  
+  padding: 0;
+  margin: 0;
+  background: #EBEBEB;
+  border: none;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  color: #151515;
+}
+
+@media screen and (max-width: 320px) {
+  .highway__button {
+    width: 24px;
+    height: 24px;
+  }
 }

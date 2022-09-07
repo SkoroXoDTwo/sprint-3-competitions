@@ -1,3 +1,9 @@
-.highway__header {
-  
+@media screen and (max-width: 320px) {
+  .highway__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    order: -2;
+    align-items: center;
+  }
 }

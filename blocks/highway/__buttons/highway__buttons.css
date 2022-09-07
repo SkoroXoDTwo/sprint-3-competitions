@@ -1,3 +1,10 @@
 .highway__buttons {
-  
+  display: flex;
+  gap: 20px;
+}
+
+@media screen and (max-width: 320px) {
+  .highway__buttons {
+    display: none;
+  }
 }

@@ -58,10 +58,11 @@
       </section>
 
       <section class="highway"> <!-- flex -->
+        <span class = "highway__line"></span>
         <div class="highway__header">
           <h2 class="highway__title">Шоссе</h2>
 
-          <div class="highway__buttons"> <!-- flex Этот элемент скрыт для Desctop-->
+          <div class="highway__buttons highway__buttons_noactive"> <!-- flex Этот элемент скрыт для Desctop-->
             <button class="highway__button">&lt;</button>
             <button class="highway__button">&gt;</button>
           </div>
@@ -74,10 +75,15 @@
           но тренироваться можно и самостоятельно.
         </p>
 
-        <div class="highway__photo">  <!-- flex or grid --> <!-- Предлагаю зеленую метку сделать как highway__photo:first-child::after {там добавить position absolute и бэкграунд} -->
-          <img class="highway__photo-item" src="" alt="">
-          <img class="highway__photo-item" src="" alt="">
-        </div>
+        <ul class="highway__photo">
+          <li class="highway__photo-list">
+            <span class="highway__photo-span"></span>
+            <img class="highway__photo-item" src="./images/placeholder_3.jpg" alt="">
+          </li>
+          <li class="highway__photo-list">
+            <img class="highway__photo-item" src="./images/placeholder_4.jpg" alt="">
+          </li>
+        </ul>
 
         <div class="highway__buttons"> <!-- flex Этот элемент скрыт для Mobile-->
           <button class="highway__button">&lt;</button>

@@ -1,3 +1,10 @@
 .highway__photo {
-  
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  flex-wrap: nowrap;
+  margin-bottom: 50px;
+  order: -1;
 }

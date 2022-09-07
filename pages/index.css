@@ -38,12 +38,16 @@
 
 /* highway */
 @import url(../blocks/highway/highway.css);
+@import url(../blocks/highway/__line/highway__line.css);
 @import url(../blocks/highway/__header/highway__header.css);
 @import url(../blocks/highway/__title/highway__title.css);
 @import url(../blocks/highway/__buttons/highway__buttons.css);
+@import url(../blocks/highway/__buttons/_noactive/highway__buttons_noactive.css);
 @import url(../blocks/highway/__button/highway__button.css);
 @import url(../blocks/highway/__subtitle/highway__subtitle.css);
 @import url(../blocks/highway/__photo/highway__photo.css);
+@import url(../blocks/highway/__photo-list/highway__photo-list.css);
+@import url(../blocks/highway/__photo-span/highway__photo-span.css);
 @import url(../blocks/highway/__photo-item/highway__photo-item.css);
 
 /* bike */
