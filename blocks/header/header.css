@@ -1,15 +1,18 @@
 .header {
-  max-width: calc(100% - 240px);
-  margin: 0 auto;
+  width: 1440px;
+  height: 74px;
+  background-color: #F4F4F4;
   position: fixed;
   top: 0;
   right: 0;
-  margin: 28px 0 28px auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 1;
 }
 
 @media screen and (max-width: 320px) {
   .header {
-    max-width: calc(100% - 36px);
-    margin-bottom: 30px;
+    width: 320px;
   }
 }

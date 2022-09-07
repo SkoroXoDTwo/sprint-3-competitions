@@ -1,4 +1,5 @@
 .intro {
-  margin: 74px auto 0;
-  
+  padding-top: 74px;
+  display: flex;
+  justify-content: space-between;
 }
