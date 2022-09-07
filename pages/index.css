@@ -28,6 +28,7 @@
 
 /* quote */
 @import url(../blocks/quote/quote.css);
+@import url(../blocks/quote/__line/quote__line.css);
 @import url(../blocks/quote/__img/quote__img.css);
 @import url(../blocks/quote/__description/quote__description.css);
 @import url(../blocks/quote/__title/quote__title.css);
