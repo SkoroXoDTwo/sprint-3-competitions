@@ -1,0 +1,7 @@
+.bike__menu-item {
+  margin-right: 40px;
+}
+
+.bike__menu-item:last-child {
+  margin-right: 0;
+}

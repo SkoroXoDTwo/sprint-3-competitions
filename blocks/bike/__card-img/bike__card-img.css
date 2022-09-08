@@ -1,3 +1,10 @@
 .bike__card-img {
-  
+  padding: 20px;
+}
+
+@media screen and (max-width: 320px) {
+  .bike__card-img {
+    max-width: 254px;
+    padding: 14.95px 14.95px 2.95px; 
+  }
 }

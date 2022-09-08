@@ -1,6 +1,6 @@
 .header {
-  width: 1440px;
-  height: 74px;
+  width: 100%;
+  min-height: 74px;
   background-color: #F4F4F4;
   position: fixed;
   top: 0;

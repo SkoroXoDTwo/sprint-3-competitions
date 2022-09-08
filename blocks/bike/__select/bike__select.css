@@ -1,3 +1,17 @@
 .bike__select {
-  
+  display: none;
+}
+
+@media screen and (max-width: 320px) {
+  .bike__select {
+    display: block;
+    box-sizing: border-box;
+    width: 114px;
+    height: 30px;
+    background-color: #F4F4F4;;
+    border: 1px solid #E3E3E3;
+    border-radius: 2px;
+    margin: 0 auto 20px 18px;
+    padding: 8px auto 8px 12px;
+  }
 }

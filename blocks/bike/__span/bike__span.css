@@ -1,0 +1,13 @@
+.bike__span {
+  display: none;
+}
+
+@media screen and (max-width: 320px) {
+  .bike__span {
+    display: block;
+    width: 284px;
+    height: 0px;
+    border-bottom: 1px solid #E3E3E3;
+    margin: 40px 18px 0;
+  }
+}

@@ -1,3 +1,17 @@
 .bike__card-name {
-  
+  margin: 22px 0 0 6px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #151515;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 320px) {
+  .bike__card-name {
+    margin: 0 72px 16px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+  }
 }

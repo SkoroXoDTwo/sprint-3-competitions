@@ -1,3 +1,9 @@
 .bike__menu {
   
 }
+
+@media screen and (max-width: 320px) {
+  .bike__menu {
+    display: none;
+  }
+}
