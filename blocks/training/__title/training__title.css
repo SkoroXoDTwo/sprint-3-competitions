@@ -1,3 +1,16 @@
 .training__title {
-  
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 1.09;
+  letter-spacing: -0.5px;
+  color: #151515;
+}
+
+@media screen and (max-width: 320px) {
+  .training__title {
+    font-size: 32px;
+    line-height: 1.25;
+  }
 }

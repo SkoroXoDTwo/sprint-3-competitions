@@ -1,3 +1,12 @@
 .training__description {
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 460px;
+}
+
+@media screen and (max-width: 320px) {
+  .training__description {
+    gap: 40px;
+  }
 }

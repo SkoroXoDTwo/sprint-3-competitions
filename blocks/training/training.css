@@ -1,3 +1,11 @@
 .training {
-  
+  padding: 150px 120px 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 320px) {
+  .training {
+    padding: 40px 18px 60px;
+  }
 }

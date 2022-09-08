@@ -1,0 +1,9 @@
+.training__img_noactive {
+  display: none;
+}
+
+@media screen and (max-width: 320px) {
+  .training__img_noactive {
+    display: block;
+  }
+}

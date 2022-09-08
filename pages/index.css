@@ -72,11 +72,14 @@
 @import url(../blocks/training/training.css);
 @import url(../blocks/training/__description/training__description.css);
 @import url(../blocks/training/__description-row/training__description-row.css);
+@import url(../blocks/training/__line/training__line.css);
 @import url(../blocks/training/__title/training__title.css);
+@import url(../blocks/training/__img/training__img.css);
+@import url(../blocks/training/__img/_noactive/training__img_noactive.css);
 @import url(../blocks/training/__subtitle/training__subtitle.css);
 @import url(../blocks/training/__links/training__links.css);
 @import url(../blocks/training/__link/training__link.css);
-@import url(../blocks/training/__img/training__img.css);
+
 
 /* footer */
 @import url(../blocks/footer/footer.css);
