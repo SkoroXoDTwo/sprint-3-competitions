@@ -3,3 +3,10 @@
   border-radius: 20px;
   margin-bottom: 22px;
 }
+
+@media screen and (max-width: 320px) {
+  .bike__card-background {
+    margin-bottom: 0;
+    padding-bottom: 16px;
+  }
+}

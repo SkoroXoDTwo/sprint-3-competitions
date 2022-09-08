@@ -1,0 +1,13 @@
+.bike__card-name_noactive {
+  display: none;
+}
+
+@media screen and (max-width: 320px) {
+  .bike__card-name_noactive {
+    display: block;
+    margin: 0 72px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

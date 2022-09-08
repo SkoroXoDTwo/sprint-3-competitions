@@ -67,6 +67,7 @@
 @import url(../blocks/bike/__card-background/bike__card-background.css);
 @import url(../blocks/bike/__card-img/bike__card-img.css);
 @import url(../blocks/bike/__card-name/bike__card-name.css);
+@import url(../blocks/bike/__card-name/_noactive/bike__card-name_noactive.css);
 
 /* training */
 @import url(../blocks/training/training.css);

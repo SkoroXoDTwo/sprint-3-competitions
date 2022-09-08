@@ -1,4 +1,6 @@
 .bike__card-name {
+  padding: 0;
+  margin: 0 0 0 6px;
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
@@ -8,9 +10,6 @@
 
 @media screen and (max-width: 320px) {
   .bike__card-name {
-    margin: 0 72px;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 18px;
+    display: none;
   }
 }
