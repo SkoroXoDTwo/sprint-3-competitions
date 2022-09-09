@@ -68,6 +68,9 @@
 @import url(../blocks/bike/__card-img/bike__card-img.css);
 @import url(../blocks/bike/__card-name/bike__card-name.css);
 @import url(../blocks/bike/__card-name/_noactive/bike__card-name_noactive.css);
+@import url(../blocks/bike/__menu-mobile/bike__menu-mobile.css);
+@import url(../blocks/bike/__menu-mobile-item/bike__menu-mobile-item.css);
+@import url(../blocks/bike/__menu-mobile-item/_active/bike__menu-mobile-item_active.css);
 
 /* training */
 @import url(../blocks/training/training.css);
