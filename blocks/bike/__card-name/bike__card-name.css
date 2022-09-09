@@ -6,6 +6,12 @@
   line-height: 22px;
   color: #151515;
   text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.bike__card-name:hover {
+  cursor: pointer;
+  opacity: 0.7;
 }
 
 @media screen and (max-width: 320px) {

@@ -1,7 +1,9 @@
 .intro__caption-name {
+  padding: 0;
   max-width: 194px;;
   font-weight: 400;
   font-size: 18px;
   line-height: 18px;
   margin: 0 30px 0 0;
+  color: #151515;
 }

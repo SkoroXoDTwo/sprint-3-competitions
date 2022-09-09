@@ -1,7 +1,3 @@
-.bike__card {
-  
-}
-
 @media screen and (max-width: 320px) {
   .bike__card:nth-last-child(-n+2) {
     display: none;

@@ -1,7 +1,15 @@
 .header__menu-link {
+  margin: 0;
+  padding: 0;
   color: #151515;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
+  transition: opacity 0.2s;
+}
+
+.header__menu-link:hover {
+  cursor: pointer;
+  opacity: 0.7;
 }
