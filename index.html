@@ -11,14 +11,14 @@
   <div class = "page">
     <header class = "header">
       <nav>
-        <ul class = "header__menu-list"> <!-- flex этот элемент скрыт для Mobile-->
+        <ul class = "header__menu-list"> 
           <li class = "header__menu-item"><a class = "header__menu-link" href = "#">Покрытия и&nbsp;градиенты</a></li>
           <li class = "header__menu-item"><a class = "header__menu-link" href = "#">Велосипеды</a></li>
           <li class = "header__menu-item"><a class = "header__menu-link" href = "#">Тренировки</a></li>
         </ul>
       </nav>
 
-      <button class = "header__burger"> <!-- flex этот элемент скрыт для Desktop-->
+      <button class = "header__burger">
         <span class = "header__burger-line"></span>
         <span class = "header__burger-line"></span>
         <span class = "header__burger-line"></span>
@@ -26,7 +26,7 @@
     </header>
 
     <main>
-      <section class = "intro"> <!-- flex -->
+      <section class = "intro">
         <div class = "intro__description">
           <h1 class = "intro__title">Шоссе, ТТ и&nbsp;Грэвел</h1>
           <img class = "intro__img intro__img_noactive" src = "./images/placeholder.jpg"
@@ -36,7 +36,7 @@
             нужно только определиться с&nbsp;выбором велосипеда и&nbsp;отправиться в&nbsp;путь.
           </p>
           <button class = "intro__button">Подробнее</button>
-          <div class = "intro__caption"> <!-- flex этот элемент скрыт для Mobile-->
+          <div class = "intro__caption">
             <p class = "intro__caption-name">Cannondale Systemsix</p>
             <span class = "intro__line"></span>
           </div>
@@ -45,24 +45,24 @@
           alt = "вид сверху на просёлочную дорогу, которую окружает лес ёлок">
       </section>
 
-      <section class = "quote"> <!-- flex -->
+      <section class = "quote">
         <span class = "quote__line"></span>
         <img class = "quote__img" src="./images/placeholder_2.jpg" alt = "велогонщик в горах, окутаных туманом">
-        <div class = "quote__description"> <!-- flex -->
+        <div class = "quote__description">
           <h2 class = "quote__title">«Катайся много или мало, долго или коротко, как хочешь - но катайся»</h2>
-          <div class = "quote__author"> <!-- flex -->
-            <h3 class = "quote__author-name">Эдди Меркс</h3> <!-- а тут возможно тэг p лучше подойдет -->
+          <div class = "quote__author">
+            <h3 class = "quote__author-name">Эдди Меркс</h3>
             <p class = "quote__author-caption">Велогонщик</p>
           </div>
         </div>
       </section>
 
-      <section class = "highway"> <!-- flex -->
+      <section class = "highway">
         <span class = "highway__line"></span>
         <div class = "highway__header">
           <h2 class = "highway__title">Шоссе</h2>
 
-          <div class = "highway__buttons highway__buttons_noactive"> <!-- flex Этот элемент скрыт для Desctop-->
+          <div class = "highway__buttons highway__buttons_noactive">
             <button class = "highway__button">&lt;</button>
             <button class = "highway__button">&gt;</button>
           </div>
@@ -86,34 +86,34 @@
           </li>
         </ul>
 
-        <div class = "highway__buttons"> <!-- flex Этот элемент скрыт для Mobile-->
+        <div class = "highway__buttons">
           <button class = "highway__button">&lt;</button>
           <button class = "highway__button">&gt;</button>
         </div>
       </section>
 
-      <section class = "bike"> <!-- flex -->
+      <section class = "bike">
         <span class = "bike__span"></span>
-        <div class = "bike__header"> <!-- flex -->
+        <div class = "bike__header">
           <h2 class = "bike__title">Велосипеды</h2>
 
-          <nav class = "bike__menu"> <!-- flex этот элемент скрыт для Mobile-->
-            <ul class = "bike__menu-list"> <!-- flex -->
+          <nav class = "bike__menu">
+            <ul class = "bike__menu-list">
               <li class = "bike__menu-item"><button class = "bike__menu-button bike__menu-button_active">Шоссе</button></li>
               <li class = "bike__menu-item"><button class = "bike__menu-button">Грэвел</button></li>
               <li class = "bike__menu-item"><button class = "bike__menu-button">TT</button></li>
             </ul>
           </nav>
 
-          <select class = "bike__select"> <!-- flex этот элемент скрыт для Desktop-->
+          <select class = "bike__select">
             <option class = "bike__option">Шоссе</option>
             <option class = "bike__option">Грэвел</option>
             <option class = "bike__option">TT</option>
           </select>
         </div>
 
-        <div class = "bike__cards"> <!-- grid -->
-          <article class = "bike__card"> <!-- flex -->
+        <div class = "bike__cards">
+          <article class = "bike__card">
             <div class = "bike__card-background">
               <img class = "bike__card-img" src = "./images/bike1.png"
                 alt = "серый велосипед">
@@ -128,7 +128,7 @@
             </a>
           </article>
 
-          <article class = "bike__card"> <!-- flex -->
+          <article class = "bike__card">
             <div class = "bike__card-background">
               <img class = "bike__card-img" src = "./images/bike2.png"
                 alt = "розово-синий велосипед">
@@ -143,7 +143,7 @@
             </a>
           </article>
 
-          <article class = "bike__card"> <!-- flex -->
+          <article class = "bike__card">
             <div class = "bike__card-background">
               <img class = "bike__card-img" src = "./images/bike3.png"
                 alt = "бирюзовый велосипед">
@@ -166,8 +166,8 @@
       </section>
 
       <section class = "training">
-        <div class = "training__description"> <!-- flex -->
-          <div class = "training__description-row"> <!-- flex -->
+        <div class = "training__description">
+          <div class = "training__description-row">
             <span class = "training__line"></span>
             <h2 class = "training__title">Тренировки</h2>
             <img class = "training__img training__img_noactive" src = "./images/placeholder_5.jpg" alt = "резкий поворот в лесу">
@@ -178,7 +178,7 @@
             </p>
           </div>
 
-          <div class = "training__links"> <!-- flex -->
+          <div class = "training__links">
             <a class = "training__link" href="#">Strava</a>
             <a class = "training__link" href="#">Komoot</a>
           </div>
@@ -188,7 +188,7 @@
       </section>
     </main>
 
-    <footer class = "footer">  <!-- flex -->
+    <footer class = "footer">
       <h2 class = "footer__title">Подпишитесь на рассылку —</h2>
       <input class = "footer__input" type = "email" placeholder = "Ваш e-mail">
       <p class = "footer__copyright">&copy; Road Club 2021</p>
